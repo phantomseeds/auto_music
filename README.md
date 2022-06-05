@@ -3,3 +3,4 @@
 自动演奏脚本。<br>
 generate_tone.py可以将midi音乐转换为自动演奏指令，音符的范围需在C3-B5之间。<br>
 run_script.py运行已经转换完的脚本文件，自动演奏。
+win32_run_script.py 使用win32api实现自动演奏，当pynput输出无法被读取时请尝试。
